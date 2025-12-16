@@ -141,25 +141,26 @@ The dataset download process was automated using a Python script with:
 ---
 
 ## 📁 Project Structurefood-calorie-classifier/
-
+```
 food-calorie-image-classifier/
-│── data/
-│   ├── raw/
-│   ├── processed/
-│
-│── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_model_training.ipynb
-│
-│── models/
-│   └── mobilenet_food_classifier.h5
-│
-│── data_loader.py        # Unsplash API dataset downloader
-│── app.py                # Streamlit app
-│── requirements.txt
-│── README.md
-│── .gitignore
-
+|
+|-- data/
+|   |-- raw/
+|   |-- processed/
+|
+|-- notebooks/
+|   |-- 01_data_exploration.ipynb
+|   |-- 02_model_training.ipynb
+|
+|-- models/
+|   |-- mobilenet_food_classifier.h5
+|
+|-- data_loader.py
+|-- app.py
+|-- requirements.txt
+|-- README.md
+|-- .gitignore
+``` 
 ## 🖥️ Streamlit Application
 
 ### 🔹 Features
